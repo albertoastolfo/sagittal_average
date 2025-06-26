@@ -5,8 +5,9 @@ build-backend = "hatchling.build"
 [project]
 name = "Greetings"
 version = "0.1.0"
+dependencies = ["numpy"]
 
 [tool.hatch.build.targets.wheel]
 packages = [
-  "src/greetings",
+  "src/sagittal_brain",
 ]
